@@ -1,0 +1,17 @@
+programa {
+	funcao inicio() {
+		
+		real hpUm, hpDois, hpTres, hpQuatro,hpCinco, hpSeis, soma
+		
+        hpUm = 26.90
+        hpDois = 34.10
+        hpTres = 29.90
+        hpQuatro = 26.90
+        hpCinco = 50.00
+        hpSeis = 26.90
+	
+	    soma = hpSeis + hpDois + hpTres + hpQuatro + hpCinco + hpSeis
+	    
+	    escreva("O valor final de todos os livros juntos é de R$", soma)
+	}
+}
