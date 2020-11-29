@@ -1,0 +1,23 @@
+programa {
+	funcao inicio() {
+		
+		real v_um, v_dois, v_tres, v_quatro, media
+		
+		escreva("Digite a sua primeira nota bimestral: ")
+		leia(v_um)
+		
+		escreva("Digite a segunda nota: ")
+		leia(v_dois)
+		
+		escreva("Digite a terceira: ")
+		leia(v_tres)
+		
+		escreva("Digite a sua ultima nota bimestral: ")
+		leia(v_quatro)
+		
+		media = (v_um + v_dois + v_tres + v_quatro) / 4
+		
+		escreva("A média entre os quatro numeros que você apresentou é: ", media)
+		
+	}
+}
