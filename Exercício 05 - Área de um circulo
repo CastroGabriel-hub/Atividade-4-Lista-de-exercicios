@@ -1,0 +1,17 @@
+programa {
+
+    inclua biblioteca Matematica --> mat 
+
+	  funcao inicio() {
+		
+		  real raio, potencia, area
+		
+		  escreva("Digite o raio de um circulo: ")
+	    leia(raio)
+	    
+	    potencia = mat.potencia(raio, 2.0)
+	    area = 3.14 * potencia
+	    
+	    escreva("A área deste circulo é: ", area)
+	}
+}
