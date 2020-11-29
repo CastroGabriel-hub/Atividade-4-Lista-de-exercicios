@@ -1,0 +1,16 @@
+programa {
+	funcao inicio() {
+		
+		cadeia mae = "Tess"
+		cadeia filha = "Anna"
+		cadeia aux
+		
+		escreva(mae, " é a mãe, e ", filha, " é a filha.")
+		
+        aux = mae
+        mae = filha
+	    filha = aux
+	    
+	    escreva( "\nOpa, parece que elas entraram em uma fria e agora ", mae, " é a mãe, e ", filha, " é a filha!")
+	}
+}
