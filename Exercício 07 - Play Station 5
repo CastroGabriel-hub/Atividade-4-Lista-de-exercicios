@@ -1,0 +1,19 @@
+programa {
+	funcao inicio() {
+		
+		real reais, dolares, ps_cinco, ps_cinco_br, hp_fenix
+		reais = 0.0
+		
+		escreva("Quantos reais(R$) você tem?")
+		leia(reais)
+		
+		dolares = reais / 5.30
+		ps_cinco = 1300 - dolares
+		ps_cinco_br = (1300 * 5.30) - reais
+		hp_fenix = reais / 50
+		
+		escreva("Faltam U$", ps_cinco, " (dolares), para você poder comprar o novo Play Station 5.")
+	    escreva("\nVocê só precisa economizar mais R$", ps_cinco_br, " (reais).")
+	    escreva("\nCom suas economias atuais você pode comprar ", hp_fenix, " livros de Harry Potter e a Ordem de Fênix.")
+	}
+}
